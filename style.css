@@ -1,0 +1,168 @@
+.inicio{
+    position: absolute;
+    width: 100%;
+    height: 920px;
+    left: 0px;
+    top: 0px;
+
+    background: url(./Images/fundo.svg);
+}
+#tab{
+    position: absolute;
+    width: 608px;
+    height: 100px;
+    left: 730px;
+    top: 30px;
+}
+#marcas{
+    position: absolute;
+    width: 61px;
+    height: 24px;
+    left: 730px;
+    top: 63px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+#carrocerias{
+    position: absolute;
+    width: 97px;
+    height: 24px;
+    left: 820px;
+    top: 63px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+#perguntas{
+    position: absolute;
+    width: 180px;
+    height: 24px;
+    left: 946px;
+    top: 63px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+#login{
+    position: absolute;
+    width: 50px;
+    height: 24px;
+    left: 1232px;
+    top: 63px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+#rectangle{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    left: 1197px;
+    top: 50px;
+
+    border: 2px solid #FFFFFF;
+    border-radius: 20px;
+}
+#Icars{
+    position: absolute;
+    width: 135px;
+    height: 94px;
+    left: 254px;
+    right: 72.99%;
+    top: 36px;
+    bottom: 96.43%;
+
+    font-family: 'Calligraffitti';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 94px;
+
+    color: #060DD9;
+}
+#sedan{
+    position: absolute;
+    width: 143.16px;
+    height: 140px;
+    left: 102px;
+    right: 82.98%;
+    top:10px;
+    bottom: 95.88%;
+    background: url(./Images/sedan.svg);
+}
+.content{
+    position: absolute;
+    width: 843px;
+    height: 462px;
+    left: 102px;
+    top: 243px;
+}
+#title{
+    position: absolute;
+    width: 715px;
+    height: 158px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+#text{
+    position: absolute;
+    width: 843px;
+    height: 198px;
+    bottom: 0;
+
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: left;
+    justify-content: center;
+
+    color: #FFFFFF;
+}

@@ -114,7 +114,7 @@ body{
     width: 143.16px;
     height: 140px;
     right: 143px;
-    background: url(./Images/sedan.svg);
+    background: url(./Images/sedan-home.svg);
 }
 .content{
     position: absolute;
@@ -155,13 +155,6 @@ body{
 
     color: #FFFFFF;
 }
-.marcas{
-    position: absolute;
-    width: 1788px;
-    height: 1010.43px;
-    left: 0px;
-    top: 630px;
-}
 #title-marcas {
     position: absolute;
     width: 486px;
@@ -181,11 +174,11 @@ body{
 
     color: #262626;
 }
-.second-layout{
+.marcas{
     position: absolute;
     width: 1440px;
     height: 700px;
-    top: 290px;
+    top: 920px;
     bottom: 20.43px;
 
     background: #F3F3FF;
@@ -246,7 +239,7 @@ body{
 
     background: url(./Images/chevrolet.svg);
 }
-#polygon{
+#polygon1{
     position: absolute;
     width: 1119px;
     height: 953px;
@@ -266,4 +259,188 @@ body{
     z-index: 1;
 
     background: url(./Images/car1.svg);
+}
+.value{
+    position: absolute;
+    width: 1440px;
+    height: 404px;
+    left: 0px;
+    top: 1620px;
+
+    background: url(./Images/velocimetro.svg);
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.item1{
+    position: absolute;
+    width: 385px;
+    height: 180px;
+    top: 94px;
+    left: 90px;
+}
+#img-item1{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 6px;
+    left: 0px;
+
+    background: url(./Images/car-velo.svg);
+    background-repeat: no-repeat;
+}
+#content-item1{
+    position: absolute;
+    width: 243px;
+    height: 87px;
+    left: 142px;
+    top: 11px;
+
+    font-size: 64px;
+    line-height: 96px;
+    text-align: center;
+}
+#content2-item1{
+    position: absolute;
+    width: 205px;
+    height: 82px;
+    left: 160px;
+    top: 98px;
+    right: 20px;
+
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+}
+.item2{
+    position: absolute;
+    width: 770px;
+    height: 180px;
+    left: 580px;
+    top: 94px;
+}
+#img1-item2{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 0px;
+    top: 12px;
+
+    background: url(./Images/user-friends.svg);
+    background-repeat: no-repeat;
+}
+#content-item2{
+    position: absolute;
+    width: 243px;
+    height: 87px;
+    left: 120px;
+    top: 11px;
+
+    font-size: 64px;
+    line-height: 96px;
+    text-align: center;
+}
+#content2-item2{
+    position: absolute;
+    width: 205px;
+    height: 82px;
+    left: 138px;
+    top: 98px;
+
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+}
+#content3-item2{
+    position: absolute;
+    width: 205px;
+    height: 108px;
+    left: 546px;
+    top: 36px;
+
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+}
+#img2-item2{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 424px;
+    top: 6px;
+
+    background: url(./Images/user-shild.svg);
+    background-repeat: no-repeat;
+}
+.carroceria{
+    position: absolute;
+    width: 1440px;
+    height: 640px;
+    left: 0px;
+    top: 2020px;
+
+    background: #F3F3FF;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    text-align: center;
+    color: #262626;
+}
+#title-carroceria{
+    position: absolute;
+    width: 486px;
+    height: 84px;
+    left: 833px;
+    top: 80px;
+
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+}
+#carroceria1{
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    left: 916px;
+    top: 208px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+#carroceria2{
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    left: 1101px;
+    top: 208px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+#carroceria3{
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    left: 916px;
+    top: 399px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+#carroceria4{
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    left: 1101px;
+    top: 399px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
 }

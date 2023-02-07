@@ -183,7 +183,7 @@ body{
 
     background: #F3F3FF;
 }
-#marca1, #marca2, #marca3, #marca4 {
+#marca1, #marca2, #marca3, #marca4,#carroceria1 , #carroceria2,#carroceria3,#carroceria4 {
     position: absolute;
     width: 160px;
     height: 160px;
@@ -213,30 +213,20 @@ body{
     position: absolute;
     width: 100px;
     height: 100px;
+    top: 30px;
+    left: 30px;
     
 }
 #fiat{
-    top: 30px;
-    left: 30px;
-
     background: url(./Images/Fiat.svg);
 }
 #ford{
-    top: 30px;
-    left: 30px;
-
     background: url(./Images/Ford.svg);
 }
 #wolks{
-    top: 30px;
-    left: 30px;
-
     background: url(./Images/wolks.svg);
 }
 #chevrolet{
-    top: 30px;
-    left: 30px;
-
     background: url(./Images/chevrolet.svg);
 }
 #polygon1{
@@ -266,6 +256,7 @@ body{
     height: 404px;
     left: 0px;
     top: 1620px;
+    z-index: 7;
 
     background: url(./Images/velocimetro.svg);
 
@@ -388,7 +379,7 @@ body{
     text-align: center;
     color: #262626;
 }
-#title-carroceria{
+#title-carrocerias{
     position: absolute;
     width: 486px;
     height: 84px;
@@ -401,46 +392,173 @@ body{
     text-align: center;
 }
 #carroceria1{
-    position: absolute;
-    width: 160px;
-    height: 160px;
-    left: 916px;
+    left: 906px;
     top: 208px;
-
-    background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
 }
 #carroceria2{
-    position: absolute;
-    width: 160px;
-    height: 160px;
-    left: 1101px;
+    left: 1091px;
     top: 208px;
-
-    background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
 }
 #carroceria3{
-    position: absolute;
-    width: 160px;
-    height: 160px;
-    left: 916px;
+    left: 906px;
     top: 399px;
-
-    background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
 }
 #carroceria4{
-    position: absolute;
-    width: 160px;
-    height: 160px;
-    left: 1101px;
+    left: 1091px;
     top: 399px;
+}
+#car_carroceria1,#car_carroceria3,#car_carroceria4{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 20px;
+    left: 30px;
+}
+#car_carroceria1{
+    background: url(./Images/Hatch.svg);
+}
+#car_carroceria2{
+    position: absolute;
+    width: 100px;
+    height: 32.91px;
+    top: 54px;
+    left: 30px;
+
+    background: url(./Images/Sedan-carrocerias.svg);
+}
+#car_carroceria3{
+    background: url(./Images/Minivan.svg);
+}
+#car_carroceria4{
+    background: url(./Images/Picape.svg);
+}
+#economico_car,#sedan_car,#minivan_car,#picape_car{
+    position: absolute;
+    width: 120px;
+    height: 31px;
+    top: 104px;
+    left: 20px;
+
+    font-size: 20px;
+}
+#car2{
+    position: absolute;
+    width: 880px;
+    height: 512px;
+    left: -27px;
+    top: 100px;
+
+    background: url(./Images/car2.svg);
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+#polygon2{
+    position: absolute;
+    width: 1119px;
+    height: 953px;
+    top: -300px;
+    right: 342px;
+
+    background: url(./Images/polygon2.svg);
+    background-repeat: no-repeat;
+}
+.perguntas-frequentes{
+    position: absolute;
+    width: 1440px;
+    height: 684px;
+    left: 0px;
+    top: 2660px;
 
     background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
+}
+footer{
+    position: absolute;
+    width: 1440px;
+    height: 300px;
+    left: 0px;
+    top: 3344px;
+
+    background: #262626;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #FFFFFF;
+}
+.logo-2{
+    position: absolute;
+    width: 287px;
+    height: 140px;
+    left: 102px;
+    top: 46px;
+}
+#content-footer{
+    position: absolute;
+    width: 194px;
+    height: 66px;
+    top: 200px;
+    left: 164px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+#face,#zap,#insta{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 144.5px;
+}
+#face{
+    background: url(./Images/face.svg) no-repeat;
+    left: 610.5px;
+}
+#insta{
+    background: url(./Images/insta.svg) no-repeat;
+    left: 684.5px;
+}
+#zap{
+    background: url(./Images/zap.svg) no-repeat;
+    left: 758.5px;
+}
+.sobre{
+    position: absolute;
+    width: 376px;
+    height: 160px;
+    left: 993px;
+    top: 73px;
+}
+#sobre-footer{
+    position: absolute;
+    width: 48px;
+    height: 24px;
+    top: 0;
+    left: 18px;
+    
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#marcas-footer,#carrocerias-footer,#perguntas-footer{
+    position: absolute;
+    left: 18px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+#marcas-footer{
+    width: 53px;
+    height: 21px;
+    top: 52px;
+}
+#carrocerias-footer{
+    width: 83px;
+    height: 21px;
+    top: 89px;
+}
+#perguntas-footer{
+    width: 154px;
+    height: 21px;
+    top: 126px;
+    left: 19px;
 }

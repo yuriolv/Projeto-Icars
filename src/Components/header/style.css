@@ -1,0 +1,105 @@
+header{
+    width: 100%;
+    height: 150px;
+}
+.tab{
+    position: absolute;
+    width: 608px;
+    height: 100px;
+    left: 730px;
+    top: 30px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+#marcas{
+    position: absolute;
+    width: 61px;
+    height: 24px;
+    left: 0px;
+    top: 33px;
+    bottom: 43px;
+
+    text-decoration: inherit;
+    color: #FFFFFF;
+
+}
+#carrocerias{
+    position: absolute;
+    width: 97px;
+    height: 24px;
+
+    left: 90px;
+    top: 33px;
+    bottom: 43px;
+    text-decoration: inherit;
+    color: #FFFFFF;
+}
+#perguntas{
+    position: absolute;
+    width: 180px;
+    height: 24px;
+
+    left: 216px;
+    top: 33px;
+    bottom: 43px;
+    text-decoration: inherit;
+    color: #FFFFFF;
+}
+#rectangle{
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    left: 467px;
+    top: 20px;
+    bottom: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: inherit;
+    color: #FFFFFF;
+    
+    border: 2px solid #FFFFFF;
+    border-radius: 20px;
+}
+.logo{
+    position: absolute;
+    width: 287px;
+    height: 140px;
+    left: 102px;
+    top: 10px;
+}
+#Icars{
+    position: absolute;
+    width: 135px;
+    height: 94px;
+    left: 152px;
+    top: 26px;
+    bottom: 20px;
+
+    font-family: 'Calligraffitti';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 94px;
+
+    color: #060DD9;
+}
+#sedan{
+    position: absolute;
+    width: 143.16px;
+    height: 140px;
+    right: 143px;
+    background: url(../../Images/sedan-home.svg);
+}

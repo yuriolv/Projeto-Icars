@@ -1,24 +1,14 @@
 import { useState } from 'react'
 import "./style.css"
 import { Footer } from '../../Components/footer'
+import { Header } from '../../Components/header'
 
 
 export function Home() {
   return (
     <body>
         <div className="inicio">
-          <nav id="tab">
-                    <a href="#title-marcas" id="marcas">Marcas</a>
-                    <a href="#title-carrocerias" id="carrocerias">Carrocerias</a>
-                    <a href="" id="perguntas">Perguntas Frequentes</a>
-                    <a href="" id="login">Entrar</a>
-                    <a href="" id="rectangle"></a>
-              
-            </nav>
-            <div className="logo">
-                    <div id="Icars" title="Icars | Referência em venda de automotivos">Icars</div>
-                    <div id="sedan" title="Icars | Referência em venda de automotivos"></div>
-            </div>
+            <Header/>
             <div className="content">
                     <div id="title">Encontre o seu próximo carro aqui!</div>
                     <div id="text">
@@ -27,20 +17,20 @@ export function Home() {
                     </div>
           </div>
       </div>
-      <div className="marcas">
+      <div className="marcas" id='Marcas'>
               <div id="title-marcas" >Marcas</div >
 
               <div id="marca1">
-                      <div id="fiat"></div>
+                    <div id="fiat"></div>
               </div>
               <div id="marca2">
-                  <div id="ford"></div>
+                    <div id="ford"></div>
               </div>
               <div id="marca3">
-                  <div id="wolks"></div>
+                    <div id="wolks"></div>
               </div>
               <div id="marca4">
-                  <div id="chevrolet"></div>
+                    <div id="chevrolet"></div>
               </div>
                   
               <div id="car1"></div>
@@ -61,7 +51,7 @@ export function Home() {
                   <div id="content3-item2">Garantia de Qualidade</div>
               </div>
       </div>
-      <div className="carroceria">
+      <div className="carroceria" id='Carrocerias'>
           <div id="title-carrocerias">Carrocerias</div>
           <div id="carroceria1">
               <div id="car_carroceria1"></div>

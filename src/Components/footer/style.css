@@ -1,0 +1,91 @@
+footer{
+    position: absolute;
+    width: 1440px;
+    height: 300px;
+    left: 0px;
+    top: 3344px;
+
+    background: #262626;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #FFFFFF;
+}
+.logo-2{
+    position: absolute;
+    width: 287px;
+    height: 140px;
+    left: 102px;
+    top: 46px;
+}
+#content-footer{
+    position: absolute;
+    width: 194px;
+    height: 66px;
+    top: 200px;
+    left: 164px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+#face,#zap,#insta{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 144.5px;
+}
+#face{
+    background: url(../../Images/face.svg) no-repeat;
+    left: 610.5px;
+}
+#insta{
+    background: url(../../Images/insta.svg) no-repeat;
+    left: 684.5px;
+}
+#zap{
+    background: url(../../Images/zap.svg) no-repeat;
+    left: 758.5px;
+}
+.sobre{
+    position: absolute;
+    width: 376px;
+    height: 160px;
+    left: 993px;
+    top: 73px;
+}
+#sobre-footer{
+    position: absolute;
+    width: 48px;
+    height: 24px;
+    top: 0;
+    left: 18px;
+    
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#marcas-footer,#carrocerias-footer,#perguntas-footer{
+    position: absolute;
+    left: 18px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+#marcas-footer{
+    width: 53px;
+    height: 21px;
+    top: 52px;
+}
+#carrocerias-footer{
+    width: 83px;
+    height: 21px;
+    top: 89px;
+}
+#perguntas-footer{
+    width: 154px;
+    height: 21px;
+    top: 126px;
+    left: 19px;
+}

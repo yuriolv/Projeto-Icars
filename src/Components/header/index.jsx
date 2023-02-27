@@ -2,11 +2,11 @@ import "./style.css"
 
 export function Header(){
     return (
-        <header>
+        <div id="header">
             <nav className='tab'>
                     <a href="/#Marcas" id="marcas">Marcas</a>
                     <a href="/#Carrocerias" id="carrocerias">Carrocerias</a>
-                    <a href="/" id="perguntas">Perguntas Frequentes</a>
+                    <a href="/#Perguntas" id="perguntas">Perguntas Frequentes</a>
                     <a href="/Login" id="rectangle">Entrar</a>
             </nav>
             <a href="/">
@@ -16,6 +16,6 @@ export function Header(){
                 </div>
             </a>
             
-        </header>
+        </div>
     )
 }

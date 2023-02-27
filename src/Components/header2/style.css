@@ -1,0 +1,136 @@
+#header {
+    width: 1440px;
+    height: 394px;
+
+    background: url('../../Images/Porsche.svg');
+    box-sizing: content-box;
+}
+.logo{
+    position: absolute;
+    width: 448px;
+    height: 220px;
+    left: 104px;
+    top: 3.37px;
+}
+#Icars{
+    position: absolute;
+    width: 190px;
+    height: 74px;
+    left: 258px;
+    top: 62.45px;
+    bottom: 20px;
+
+    font-family: 'Calligraffitti';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 94px;
+
+    color: #060DD9;
+}
+#sedan{
+    position: absolute;
+    width: 243px;
+    height: 220px;
+    left: 0;
+    background: url(../../Images/sedan-home.svg) no-repeat center ;
+    background-size: contain;
+}
+.tab {
+    position: absolute;
+    width: 608px;
+    height: 100px;
+    top: 64px;
+    left: 730px;
+
+
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    
+}
+#Procurar{
+    position: absolute;
+    width: 181px;
+    height: 33px;
+    top: 29px;
+    left: 16px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+#Carrinho{
+    position: absolute;
+    width: 241px;
+    height: 33px;
+    top: 29px;
+    left: 218px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+#Perfil {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 5px;
+    left: 510px;
+
+    background: url('../../Images/pic.svg') content-box;
+    background-position: -10px -3px;
+    
+}
+#profile {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    top: 26px;
+    left: 26px;
+    z-index: 7;
+
+    background: url('../../Images/profile.svg') content-box;
+}
+#search{
+    position: absolute;
+    width: 588px;
+    height: 50px;
+    top: 284px;
+    left: 426px;
+}
+#search input {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 588px;
+    height: 50px;
+
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 32px;
+}
+#search input::placeholder {
+    position: absolute;
+    width: 486px;
+    height: 25px;
+    top: 12px;
+    left: 41px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+
+    color: #C5C3C6;
+
+}
+#search img {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 14px;
+    left: 547px;
+}

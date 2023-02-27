@@ -2,7 +2,7 @@ body{
     overflow-x: hidden;
 }
 .inicio{
-    position: absolute;
+    position: relative;
     width: 1440px;
     height: 920px;
     left: 0px;
@@ -70,11 +70,9 @@ body{
     color: #262626;
 }
 .marcas{
-    position: absolute;
+    position: relative;
     width: 1440px;
     height: 700px;
-    top: 920px;
-    bottom: 20.43px;
 
     background: #F3F3FF;
 }
@@ -146,11 +144,10 @@ body{
     background: url(../../Images/car1.svg);
 }
 .value{
-    position: absolute;
+    position: relative;
     width: 1440px;
     height: 404px;
     left: 0px;
-    top: 1620px;
     z-index: 7;
 
     background: url(../../Images/velocimetro.svg);
@@ -261,11 +258,10 @@ body{
     background-repeat: no-repeat;
 }
 .carroceria{
-    position: absolute;
+    position: relative;
     width: 1440px;
     height: 640px;
     left: 0px;
-    top: 2020px;
 
     background: #F3F3FF;
 
@@ -335,6 +331,7 @@ body{
     left: 20px;
 
     font-size: 20px;
+    font-weight: 700;
 }
 #car2{
     position: absolute;
@@ -358,11 +355,125 @@ body{
     background-repeat: no-repeat;
 }
 .perguntas-frequentes{
-    position: absolute;
+    position: relative;
     width: 1440px;
     height: 684px;
     left: 0px;
-    top: 2660px;
+
+    font-family: 'Poppins';
+    font-style: normal;
 
     background: #FFFFFF;
 }
+.perguntas-frequentes h1{
+    position: absolute;
+    width: 448px;
+    height: 60px;
+    top: 93px;
+    left: 496px;
+
+    font-weight: 600;
+    font-size: 40px;
+}
+.menu{
+    position: absolute;
+    width: 994px;
+    height: 409px;
+    top: 215px;
+    left: 223px;
+}
+.question1 .button1 {
+    position: relative;
+    left: 963.69px;
+    top: -18px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.question1 #title-perguntas {
+    position: relative;
+    width: 498px;
+    height: 30px;
+    top: 5px;
+
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #060Dd9;
+}
+.question1 .content-perguntas{
+    position: relative;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    top: 22px;
+
+    color: #262626;
+}
+.question2 .button2 {
+    position: relative;
+    left: 963.69px;
+    top: -18px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.question2 #title-perguntas2 {
+    position: relative;
+    width: 498px;
+    height: 30px;
+    top: 5px;
+
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #060Dd9;
+}
+.question2 .content-perguntas2{
+    position: relative;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    top: 22px;
+
+    color: #262626;
+}
+.question3 .button3 {
+    position: relative;
+    left: 963.69px;
+    top: -18px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.question3 #title-perguntas3 {
+    position: relative;
+    width: 498px;
+    height: 30px;
+    top: 5px;
+
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #060Dd9;
+}
+.question3 .content-perguntas3{
+    position: relative;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    top: 22px;
+
+    color: #262626;
+}
+ #line {
+    position: relative;
+    width: 994px;
+    height: 0px;
+    margin-top: 50px;
+    margin-bottom: 41px;
+
+    border: 1px solid #262626;
+}
+
+

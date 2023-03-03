@@ -10,9 +10,9 @@ import {Cars} from "./Pages/Cars"
           {" "}
           {/* criação das rotas do site */}
           <Route path="/" element={<Home />} />
-          <Route path="/Login" element={<Login />} />
-          <Route path="/SigIn" element={<SigIn />} />
-          <Route path="/Cars" element={<Cars />} />
+          <Route path="Login" element={<Login />} />
+          <Route path="SigIn" element={<SigIn />} />
+          <Route path="Cars" element={<Cars />} />
         </Routes>
       </Router>
     );

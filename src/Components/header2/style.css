@@ -1,18 +1,18 @@
-#header {
+#header2 {
     width: 1440px;
     height: 394px;
 
     background: url('../../Images/Porsche.svg');
     box-sizing: content-box;
 }
-.logo{
+.logo2{
     position: absolute;
     width: 448px;
     height: 220px;
     left: 104px;
     top: 3.37px;
 }
-#Icars{
+#Icars2{
     position: absolute;
     width: 190px;
     height: 74px;
@@ -28,7 +28,7 @@
 
     color: #060DD9;
 }
-#sedan{
+#sedan2{
     position: absolute;
     width: 243px;
     height: 220px;
@@ -36,7 +36,7 @@
     background: url(../../Images/sedan-home.svg) no-repeat center ;
     background-size: contain;
 }
-.tab {
+.tab2 {
     position: absolute;
     width: 608px;
     height: 100px;
@@ -104,6 +104,7 @@
     position: absolute;
     width: 588px;
     height: 50px;
+    padding-left: 25px;
 
     background: #FFFFFF;
     border: 2px solid #FFFFFF;
